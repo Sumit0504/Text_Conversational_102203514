@@ -25,7 +25,7 @@ Designed for NLP practitioners to compare model performance objectively.
 ## Key Files 📄
 | File | Description |
 |------|-------------|
-| /Users/mac/Documents/Text_Conversational_102203514/final.csv | Runs model evaluation, calculates metrics, and generates results/plots |
+| ROUGE-1_comparison.png | Runs model evaluation, calculates metrics, and generates results/plots |
 | `results.csv` | Contains average scores for ROUGE, F1, Perplexity, etc. per model |
 | `final.csv` | Final ranking using TOPSIS (Technique for Order Preference by Similarity) |
 | `*_comparison.png` | Visual comparisons of individual metrics across models |
