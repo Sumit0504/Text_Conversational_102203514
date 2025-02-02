@@ -1,6 +1,4 @@
-# Conversational AI Model Evaluation 🧠🤖
-
-![TOPSIS Ranking](topsis_models_comparison.png)
+# Apply topsis to find best pre-trained model for 🧠🤖
 
 A comprehensive evaluation framework for comparing pre-trained conversational AI models using multiple NLP metrics. **This project builds on and integrates components from my [previous project of topsis] (https://github.com/Sumit0504/Topsis_Sumit_102203514) for evaluation.**
 
@@ -10,9 +8,6 @@ This project evaluates 6 pre-trained conversational models (like DialoGPT varian
 - **Fluency** (Perplexity, Response Length)
 - **Grammatical correctness** 
 - **Ranking** (TOPSIS methodology)
-
-**Key Integration**:  
-Reused and extended evaluation logic (e.g., `calculate_rouge`, `calculate_perplexity`) from my [earlier project](link_to_previous_project_repo) focused on summarization models, adapting it for conversational AI use cases.
 
 ---
 
@@ -42,10 +37,19 @@ This project leverages code and methodologies from my **[previous NLP evaluation
 ## Key Files 📄
 | File | Description |
 |------|-------------|
-| `eval.py` | Runs model evaluation, calculates metrics, and generates results/plots |
-|  | Contains average scores for ROUGE, F1, Perplexity, etc. per model |
-| `final.csv` | Final ranking using TOPSIS (Technique for Order Preference by Similarity) |
-| `*_comparison.png` | Visual comparisons of individual metrics across models |
+| ![result](https://github.com/user-attachments/assets/31eb5963-42f0-4470-bfbc-5a579d63054c)
+ | Contains average scores for ROUGE, F1, Perplexity, etc. per model |
+| ![final](https://github.com/user-attachments/assets/cec1ca3e-78e7-40e3-ae64-40bf84e85be9)
+ | Final ranking using TOPSIS (Technique for Order Preference by Similarity) |
+| ![topsis_models_comparison](https://github.com/user-attachments/assets/13ef83dd-6c04-45e1-bf39-f84b38b39b26)
+ | Visual comparisons of individual metrics across models |
+|ROUGE-1_comparison, ROUGE-2_comparison, ROUGE-L_comparison, Response Length_comparison, Response Length, Perplexity:Bar graphs comparing individual metrics.
+![ROUGE-1_comparison](https://github.com/user-attachments/assets/45bf1a7d-eb54-45c6-ae32-0ed45c52552b)
+![ROUGE-2_comparison](https://github.com/user-attachments/assets/1ef357e4-18ab-4fc8-a928-70c3b5155229)
+![ROUGE-L_comparison](https://github.com/user-attachments/assets/5a7ec9b8-78c4-4cbb-b3c9-84afe369f65c)
+![Response Length_comparison](https://github.com/user-attachments/assets/c8fc93a4-c5b2-47a7-a7df-975661714ddc)
+![ROUGE-L_comparison](https://github.com/user-attachments/assets/776c7495-71f2-48bf-bdfa-fa774aebd6c5)
+|
  ---
 ## Dependencies ⚙️
 - Python 3.7+
@@ -57,3 +61,10 @@ This project leverages code and methodologies from my **[previous NLP evaluation
 ```bash
 pip install -r requirements.txt
 python -m nltk.downloader popular  # Download NLTK data
+```
+---
+## Final Thought:
+
+This work demonstrates how systematic evaluation—combined with iterative reuse of past projects—can accelerate NLP research. By openly sharing this framework, I hope to empower developers to make data-driven decisions when choosing conversational AI models. Contributions and extensions are welcome! 🚀
+
+---
